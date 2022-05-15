@@ -1,0 +1,95 @@
+/* Geral */
+body {
+    /* Definindo o padding */
+    padding: 20px;
+}
+
+/* Estilo para a tag Parágrafos */
+p {
+    /* Definindo a cor da fonte para verde */
+    color: green;
+    /* Definindo o tamanho da fonte para 30px */
+    font-size: 30px;
+}
+
+/* Estilo para a classe de Parágrafos numerados */
+.p-numerados {
+    /* Definindo qual fonte vai ser usada */
+    font-family: 'Courier New';
+    /* Definindo a cor da fonte para blueviolet */
+    color: blueviolet;
+    /* Definindo a cor do fundo para yellowgreen */
+    background-color: yellowgreen;
+}
+
+/* Estilo para o id p1 */
+#p1 {
+    /* Definindo a cor do fundo para preto */
+    background-color: black;
+    /* Definindo a cor da fonte para vermelho */
+    color: red;
+}
+
+/* Estilo para o h2 */
+h2 {
+    /* Definindo a borda de baixo com 1px solid e vermelha */
+    border-bottom: 1px solid red;
+}
+
+/* TODOS ELEMENTOS DA PÁGINA */
+* {
+    /* Definindo a fonte arial  */
+    font-family: Arial;
+}
+
+/* Estilo para a classe decoration */
+.decoration {
+    /* Removendo o estilo do texto */
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+a:visited {
+    /* Definindo a cor da fonte para vermelho */
+    color: rgb(241, 13, 13);
+}
+
+/* Estilo para quando passar o mouse por cima da tag a */
+a:hover {
+    /* Definindo a cor do fundo para amarelo */
+    background-color: yellow;
+    
+}
+
+/* Estilo para a classe serifada */
+.serifada {
+    /* Definindo qual fonte vai ser usada */
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* Estilo para a classe sem-serifada */
+.sem-serifa {
+    /* Definindo qual fonte vai ser usada */
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Estilo para a classe monoespacada */
+.monoespacada {
+    /* Definindo qual fonte vai ser usada */
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* Estilo para a classe caixa */
+.caixa {
+    /* Definindo a largura do elemento */
+    width: 150px;
+    /* Definindo a altura do elemento */
+    height: 100px;
+    /* Definindo a borda para 10px solid azul */
+    border: 10px solid blue;
+    /* Definindo o padding do elemento */
+    padding: 100px 50px 30px 150px;
+    /* Definindo a marging do elemento */
+    margin: 10px;
+}
+
